@@ -83,7 +83,21 @@ function start(){
         // console.log(history);
         // console.log(useInOtherWritingSystem);
         // console.log(otherUses);
-        app.use('/', (req, res, next) => {
+
+        console.log("------------------History------------------");
+        console.log(history)
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("------------------Use in Writing System ------------------");
+        console.log(useInOtherWritingSystem)
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");        console.log("------------------Other Uses------------------");
+        console.log(otherUses)
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");
+        console.log("--------------------------------------------------------------------------------------");        app.use('/', (req, res, next) => {
             // console.log(document)
             var styles=' <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikihiero%2CwikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" />' +
             '<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>';
